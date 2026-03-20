@@ -97,22 +97,7 @@ pip install -r requirements.txt
 jupyter notebook finding_donors.ipynb
 ```
 
-## Reproducibility Notes
-
-- Random seeds are set where appropriate (for example, model initialization and train/test split) to improve reproducibility.
-- Results can vary slightly depending on package versions.
-
-## Future Improvements
-
-- Add a standalone training script (CLI) outside the notebook
-- Export and version the best model artifact
-- Add SHAP-based explainability for donor targeting transparency
-- Track experiments with MLflow or Weights & Biases
-
 ## Acknowledgment
 
 This project is based on the Finding Donors for CharityML project from the Udacity Data Scientist Nanodegree. Appreciation to Udacity for the original project structure and learning framework that guided this work.
 
-## License
-
-This repository is for educational purposes. Dataset and project framing follow the original sources listed above.
