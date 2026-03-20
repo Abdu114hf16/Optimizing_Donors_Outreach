@@ -97,16 +97,6 @@ pip install -r requirements.txt
 jupyter notebook finding_donors.ipynb
 ```
 
-## Reproducibility Notes
-
-- Random seeds are set where appropriate (for example, model initialization and train/test split) to improve reproducibility.
-- Results can vary slightly depending on package versions.
-
-## Future Improvements
-
-- Add a standalone training script (CLI) outside the notebook
-- Export and version the best model artifact
-- Add SHAP-based explainability for donor targeting transparency
 - Track experiments with MLflow or Weights & Biases
 
 ## License
