@@ -14,7 +14,8 @@ This work is based on the Finding Donors for CharityML project from the Udacity 
 
 ## Repository Structure
 
-- `finding_donors_final.ipynb` - Complete notebook with analysis, feature engineering, model training, tuning, and conclusions.
+- `finding_donors.ipynb` - Complete notebook with analysis, feature engineering, model training, tuning, and conclusions.
+- `finding_donors_report.html` - Exported HTML report version of the final notebook.
 - `census.csv` - Input dataset used for training and evaluation.
 - `visuals.py` - Helper plotting utilities used by the notebook.
 
@@ -93,7 +94,7 @@ pip install -r requirements.txt
 3. Launch Jupyter and open the notebook.
 
 ```bash
-jupyter notebook finding_donors_final.ipynb
+jupyter notebook finding_donors.ipynb
 ```
 
 ## Reproducibility Notes
