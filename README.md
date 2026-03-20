@@ -1,5 +1,9 @@
 # CharityML Donor Outreach Optimization
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
+
 A supervised learning project that predicts whether an individual earns more than $50,000/year using U.S. census data, helping CharityML prioritize donor outreach.
 
 ## Project Overview
@@ -79,7 +83,7 @@ The tuned model improves precision-oriented performance, which better aligns wit
 Install dependencies:
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib jupyter
+pip install -r requirements.txt
 ```
 
 ## How to Run
