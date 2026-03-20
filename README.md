@@ -98,7 +98,3 @@ jupyter notebook finding_donors.ipynb
 ```
 
 - Track experiments with MLflow or Weights & Biases
-
-## License
-
-This repository is for educational purposes. Dataset and project framing follow the original sources listed above.
