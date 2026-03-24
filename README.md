@@ -8,9 +8,7 @@ A supervised learning project that predicts whether an individual earns more tha
 
 ## Project Overview
 
-Charity outreach campaigns are expensive when sent broadly. This project builds and tunes a binary classifier to identify high-income individuals (income >50K), who are more likely to donate.
-
-This work is based on the Finding Donors for CharityML project from the Udacity Data Scientist Nanodegree, with custom analysis, model comparison, and optimization steps.
+Charity outreach campaigns are expensive when sent broadly. Charity is a fictitious charity organization located in the heart of Silicon Valley. With advanced statistical methods, CharityML has decided to send letters only pepole with +50K income those who most likely to donate to the charity. This project explores analyze and explore correlations and distributions of dataset variables. Compare candidate Machine Learning models and tunes/optimize the best model (AdaBoost) to binary classify to identify high-income individuals (income >50K), who are more likely to donate.
 
 ## Repository Structure
 
