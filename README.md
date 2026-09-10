@@ -99,3 +99,44 @@ jupyter notebook finding_donors.ipynb
 
 This project is based on the Finding Donors for CharityML project from the Udacity Data Scientist Nanodegree. Appreciation to Udacity for the original project structure and learning framework that guided this work.
 
+## Reproducibility
+
+`requirements.txt` pins the dependencies and `census.csv` is included, so the
+notebook runs end to end without external downloads. The split is seeded and
+the reported accuracy and F0.5 figures reproduce.
+
+## Why F0.5 rather than accuracy
+
+The two mistakes do not cost the same. A false positive spends a letter, an
+envelope and a follow-up on someone who was never going to give; a false
+negative misses a prospect. When the campaign budget is the binding constraint,
+the first is the cost being managed, so precision is weighted twice as heavily
+as recall. That is exactly what F-beta with beta = 0.5 does. It was chosen
+before the models were run.
+
+## Limitations and responsible use
+
+- **Income is a proxy for capacity, not a record of anyone donating.** The
+  target is a census income threshold. The model ranks predicted earnings, and
+  treating that ranking as generosity is a leap the data cannot support.
+- Demographic targeting can reinforce historical inequities. A real deployment
+  would need consent, fairness analysis across the protected attributes present
+  in the data, and policy review before it touched a live list.
+- The model outputs a score, not a calibrated probability. Any contact
+  threshold would need to be set and reviewed deliberately.
+- The exercise ends at model selection. It was never evaluated against real
+  campaign outcomes, which is the only test that would show whether the ranking
+  works.
+- **Guided project.** The dataset, framing and objective come from Udacity's
+  CharityML exercise; the analysis and implementation are mine.
+
+## Case study
+
+A full write-up: the business question, the method, the evidence, and what the
+result does not support.
+
+<https://alshammari.dev/projects/optimizing-donor-outreach/>
+
+## License
+
+MIT. See [LICENSE](LICENSE).
